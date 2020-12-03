@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    margin: auto;
+    max-width: 1600px;
+    font-family: 'Inter', sans-serif;
+}
+.header {
+    padding-top: 45px;
+    padding-bottom: 72px;
+}
+.container-fluid  {
+    width: 100%;
+    max-width: 1415px;
+    margin: auto;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    width: 41px;
+    height: 41px;
+}
+.active {
+    color: #202336!important;
+    font-weight: 500!important;
+}
+.nabar-menu {
+    margin-left: auto;
+}
+.nav-link {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    color: #b8becd;
+    text-decoration: none;
+    margin-right: 35px;
+}
+.logIn {
+    text-decoration: none;
+    color: #fb8f1d;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px 46px;
+    border: 1px solid #fb8f1d;
+    border-radius: 8px;
+}
+.reg {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 8px 36px;
+    border-radius: 8px;
+    background: #fb8f1d;
+}
+
+.travel {
+    padding-bottom: 135px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.content2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+}
+/* .left {
+
+} */
+.title {
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+    font-style: normal;
+    color: #202336;
+    padding-bottom: 74px;
+}
+.subtitle {
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #202336;
+}
+.line {
+    padding: 21px;
+    width: 32px;
+    height: 2px;
+    border-bottom: 1px solid #202336;
+}
+.select-content {
+    margin-bottom: 47px;
+}
+.option {
+    margin-top: 28px;
+    padding: 21px 121px 21px 31px;
+    font-size: 15px;
+    line-height: 32px;
+    font-style: normal;
+    font-weight: normal;
+    color: #4a4c53;
+    border: 0.8px solid #afb0b9;
+    border-radius: 6px;
+    width: 220px;
+}
+.top, .bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.ml {
+    margin-right: auto;
+    margin-left: 30px;
+}
+.reg2 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 21px 59px;
+    border-radius: 8px;
+    background: #fb8f1d;
+}
+.new-way {
+    padding-top: 135px;
+    padding-bottom: 131px;
+}
+.container {
+    width: 100%;
+    max-width: 1242px;
+    margin: auto;
+}
+.title-small {
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Playfair Display;
+    padding-bottom: 20px;
+}
+.description  {
+    font-family: Mulish;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: normal;
+    color: #7d7987;
+    padding-bottom: 33px;
+}
+.reg3 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 21px 38px;
+    border-radius: 8px;
+    background: #fb8f1d;
+}
+.reg4 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    line-height: 60px;
+    font-weight: 500;
+    font-style: normal;
+    padding: 21px 43px;
+    border-radius: 8px;
+    background: #fb8f1d;
+}
+.fealtured {
+    padding-top: 131px;
+    padding-bottom: 86px;
+}
+.feal {
+    padding-bottom: 56px;
+}
+.description-2 {
+    font-size: 17px;
+    line-height: 60px;
+    font-style: normal;
+    font-weight: 60px;
+    color: #fb8f1d;
+    text-decoration: none;
+}
+.image {
+    padding-bottom: 39px;
+}
+.guides {
+    padding-top: 86px;
+    max-width: 1205,57px;
+    margin-right: 154px;
+    margin-left: 240px;
+    padding-bottom: 124px;
+}
+.title-3 {
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Playfair Display;
+    line-height: 50px;
+    color: #000;
+    padding-bottom: 20px;
+}
+.testimonials  {
+    padding-top: 124px;
+    width: 1180px;
+    margin-right: 324px;
+    margin-left: 96px;
+    padding-bottom: 106px;
+}
+.pd {
+    padding: 43px;
+}
+.star {
+    margin-right: 5px;
+}
+.stars {
+    padding-bottom: 30px;
+}
+.description-3 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    padding-bottom: 40px;
+}
+.use-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    padding-bottom: 10px;
+}
+.sub-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(0, 0, 0, 0.85);
+}
+.trendng {
+    padding-top: 106px;
+    padding-bottom: 193px;
+}
+.bord-img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.small-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 30px;
+    color: #000;
+    padding-bottom: 13px;
+}
+.img-link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: #fb8f1d;
+    text-decoration: none;
+}
+.footer {
+    margin-top: 193px;
+    padding-top: 78px;
+}
+.footer-logo {
+    max-width: 44px;
+    max-height: 44px;
+    margin-bottom: 26px;
+}
+.description-3 {
+    font-family: Mulish0;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #848484;
+    padding-bottom: 55px;   
+}
+.destinations-title {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 60px;
+}
+.destinations-list {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #848484;
+    list-style: none;
+}
+.line-2 {
+    padding-top: 77px;
+    border-bottom: 0.6px solid #c4c4c4;
+    
+}
+.social-links {
+    padding: 30px 32px;
+}
+.social-content {
+    display: flex;
+    justify-content: center;
+}
+.social-img {
+    margin-right: 35px;
+}
